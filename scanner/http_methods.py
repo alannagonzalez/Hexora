@@ -66,7 +66,7 @@ def check_http_methods(url):
                         "status": "INFO",
                         "message": (
                             f"No fue posible verificar el método {method} "
-                            f"porque el servidor respondió con HTTP {status_code}."
+                            f"El servidor rechazó la prueba del método {method} con HTTP {response.status_code}. No se puede determinar si está habilitado."
                         )
                     })
 
