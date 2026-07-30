@@ -1,4 +1,4 @@
-#ARCHVIO DE FUNCIONES:
+
 
 from urllib.parse import urlparse
 def validate_url(url):
