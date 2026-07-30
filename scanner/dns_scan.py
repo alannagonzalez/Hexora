@@ -1,4 +1,4 @@
-#Archivo para el analisis DNS de la URL
+
 
 import socket
 from urllib.parse import urlparse

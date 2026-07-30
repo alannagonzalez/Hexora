@@ -1,4 +1,4 @@
-#Archivo para hacer check de seguridad de las configuraciones http
+
 def check_security_headers(headers):
 
     security_checks = {
